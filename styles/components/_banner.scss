@@ -1,9 +1,26 @@
+@import "../abstract/variaveis";
+
 .banner {
-     background: url(../../images/banner.jpeg) 27% center no-repeat;
+     background: url(../images/banner.jpeg) 27% center no-repeat;
+     background-color: aqua;
      min-height: 350px;
      background-size: cover;
      display: flex;
      align-items: center;
      justify-content: center;
      opacity: 0.9;
+     .inner-banner {
+          background-color: $cor-terciaria;
+          padding: 3rem;
+          border-radius: 45px;
+          opacity: 0.8;
+          h1 {
+               font-size: $tamanho-fonte;
+               color: $cor-primaria;
+          }
+          h2 {
+               font-size: $tamanho-fonte / 2; // <== Utilizando operações no CSS!
+               color: $cor-secundaria;
+          }
+     }
 }

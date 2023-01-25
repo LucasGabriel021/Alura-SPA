@@ -21,11 +21,26 @@ nav ul li a:hover {
 }
 
 .banner {
-  background: url(../../images/banner.jpeg) 27% center no-repeat;
+  background: url(../images/banner.jpeg) 27% center no-repeat;
+  background-color: aqua;
   min-height: 350px;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0.9;
+}
+.banner .inner-banner {
+  background-color: #FBFACD;
+  padding: 3rem;
+  border-radius: 45px;
+  opacity: 0.8;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #7F669D;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #BA94D1;
 }/*# sourceMappingURL=style.css.map */
