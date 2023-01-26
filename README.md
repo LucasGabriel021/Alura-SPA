@@ -1,1 +1,1 @@
-Curso de SASSA
+# Aplicação desenvolvida afim de praticar o Sass!
